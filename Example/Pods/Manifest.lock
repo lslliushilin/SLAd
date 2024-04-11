@@ -1,0 +1,27 @@
+PODS:
+  - FBSnapshotTestCase (2.1.4):
+    - FBSnapshotTestCase/SwiftSupport (= 2.1.4)
+  - FBSnapshotTestCase/Core (2.1.4)
+  - FBSnapshotTestCase/SwiftSupport (2.1.4):
+    - FBSnapshotTestCase/Core
+  - SLAd (0.1.0)
+
+DEPENDENCIES:
+  - FBSnapshotTestCase
+  - SLAd (from `../`)
+
+SPEC REPOS:
+  trunk:
+    - FBSnapshotTestCase
+
+EXTERNAL SOURCES:
+  SLAd:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
+  SLAd: 8925968d4841899f29336609296e1aaa0d310d20
+
+PODFILE CHECKSUM: 311ffc393d531c105d5f1a7e81b7532925b3413a
+
+COCOAPODS: 1.11.3

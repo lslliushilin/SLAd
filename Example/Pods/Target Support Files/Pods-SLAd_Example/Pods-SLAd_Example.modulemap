@@ -1,0 +1,6 @@
+framework module Pods_SLAd_Example {
+  umbrella header "Pods-SLAd_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

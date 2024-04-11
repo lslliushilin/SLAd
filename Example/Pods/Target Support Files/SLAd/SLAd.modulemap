@@ -1,0 +1,6 @@
+framework module SLAd {
+  umbrella header "SLAd-umbrella.h"
+
+  export *
+  module * { export * }
+}

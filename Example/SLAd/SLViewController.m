@@ -7,7 +7,7 @@
 //
 
 #import "SLViewController.h"
-
+#import <DM_Link.h>
 @interface SLViewController ()
 
 @end
@@ -18,6 +18,7 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
+    [[DM_Link shareInstance] openAppWithUniversalLink:@"qw3"];
 }
 
 - (void)didReceiveMemoryWarning

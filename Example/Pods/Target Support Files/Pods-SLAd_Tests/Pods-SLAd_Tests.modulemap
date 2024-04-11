@@ -1,0 +1,6 @@
+framework module Pods_SLAd_Tests {
+  umbrella header "Pods-SLAd_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}
