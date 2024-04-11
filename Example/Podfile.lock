@@ -4,7 +4,7 @@ PODS:
   - FBSnapshotTestCase/Core (2.1.4)
   - FBSnapshotTestCase/SwiftSupport (2.1.4):
     - FBSnapshotTestCase/Core
-  - SLAd (0.2.0)
+  - SLAd (0.3.0)
 
 DEPENDENCIES:
   - FBSnapshotTestCase
@@ -20,7 +20,7 @@ EXTERNAL SOURCES:
 
 SPEC CHECKSUMS:
   FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
-  SLAd: 51aca4a733ee42cac15a8f61989315c97afb7830
+  SLAd: aafd720986c862730698d461b9b6b8388e3c3f25
 
 PODFILE CHECKSUM: 311ffc393d531c105d5f1a7e81b7532925b3413a
 

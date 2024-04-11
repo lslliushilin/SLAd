@@ -207,7 +207,7 @@
 				6003F586195388D20070C39A /* Sources */,
 				6003F587195388D20070C39A /* Frameworks */,
 				6003F588195388D20070C39A /* Resources */,
-				2FE1A921053D4D6968ED42D2 /* [CP] Embed Pods Frameworks */,
+				449D8D2B70556ECFA42F1523 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -299,22 +299,22 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		2FE1A921053D4D6968ED42D2 /* [CP] Embed Pods Frameworks */ = {
+		449D8D2B70556ECFA42F1523 /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-SLAd_Example/Pods-SLAd_Example-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/SLAd/SLAd.framework",
+				"${PODS_ROOT}/Target Support Files/Pods-SLAd_Example/Pods-SLAd_Example-resources.sh",
+				"${PODS_CONFIGURATION_BUILD_DIR}/SLAd/DMAdSDK_Bundle.bundle",
 			);
-			name = "[CP] Embed Pods Frameworks";
+			name = "[CP] Copy Pods Resources";
 			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SLAd.framework",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/DMAdSDK_Bundle.bundle",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SLAd_Example/Pods-SLAd_Example-frameworks.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SLAd_Example/Pods-SLAd_Example-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		7E38D51BF2C1E08596E5A111 /* [CP] Check Pods Manifest.lock */ = {
