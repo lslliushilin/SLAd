@@ -208,6 +208,7 @@
 				6003F587195388D20070C39A /* Frameworks */,
 				6003F588195388D20070C39A /* Resources */,
 				449D8D2B70556ECFA42F1523 /* [CP] Copy Pods Resources */,
+				AE621A699D70761971191D40 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -355,6 +356,24 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SLAd_Tests/Pods-SLAd_Tests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AE621A699D70761971191D40 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SLAd_Example/Pods-SLAd_Example-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/AFNetworking/AFNetworking.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AFNetworking.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SLAd_Example/Pods-SLAd_Example-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		B7B8CE3ED1785D27D62193A3 /* [CP] Check Pods Manifest.lock */ = {

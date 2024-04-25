@@ -1,10 +1,32 @@
 PODS:
+  - AFNetworking (2.7.0):
+    - AFNetworking/NSURLConnection (= 2.7.0)
+    - AFNetworking/NSURLSession (= 2.7.0)
+    - AFNetworking/Reachability (= 2.7.0)
+    - AFNetworking/Security (= 2.7.0)
+    - AFNetworking/Serialization (= 2.7.0)
+    - AFNetworking/UIKit (= 2.7.0)
+  - AFNetworking/NSURLConnection (2.7.0):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/NSURLSession (2.7.0):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (2.7.0)
+  - AFNetworking/Security (2.7.0)
+  - AFNetworking/Serialization (2.7.0)
+  - AFNetworking/UIKit (2.7.0):
+    - AFNetworking/NSURLConnection
+    - AFNetworking/NSURLSession
   - FBSnapshotTestCase (2.1.4):
     - FBSnapshotTestCase/SwiftSupport (= 2.1.4)
   - FBSnapshotTestCase/Core (2.1.4)
   - FBSnapshotTestCase/SwiftSupport (2.1.4):
     - FBSnapshotTestCase/Core
-  - SLAd (0.3.0)
+  - SLAd (0.4.0):
+    - AFNetworking (~> 2.3)
 
 DEPENDENCIES:
   - FBSnapshotTestCase
@@ -12,6 +34,7 @@ DEPENDENCIES:
 
 SPEC REPOS:
   trunk:
+    - AFNetworking
     - FBSnapshotTestCase
 
 EXTERNAL SOURCES:
@@ -19,8 +42,9 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
+  AFNetworking: 9d57de7506959955d82fb5274ee4bec86b930e52
   FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
-  SLAd: aafd720986c862730698d461b9b6b8388e3c3f25
+  SLAd: 748390aa73a0d63e53d6bf1393455d9e04cbcd27
 
 PODFILE CHECKSUM: 311ffc393d531c105d5f1a7e81b7532925b3413a
 
