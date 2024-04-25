@@ -10,17 +10,10 @@
 #endif
 #endif
 
-#import "DMAds.h"
-#import "DMAdSDK.h"
-#import "DM_BannerAd.h"
-#import "DM_BannerView.h"
-#import "DM_FeedAd.h"
-#import "DM_FeedView.h"
-#import "DM_InterstitialAd.h"
-#import "DM_RewardVideoAd.h"
-#import "DM_RewarVideoModel.h"
-#import "DM_SplashAd.h"
-#import "DM_Link.h"
+#import "DM_PhoneDefine.h"
+#import "DM_PhoneInfo.h"
+#import "DM_Reachability.h"
+#import "UIDevice+DM_DeviceInfo.h"
 
 FOUNDATION_EXPORT double SLAdVersionNumber;
 FOUNDATION_EXPORT const unsigned char SLAdVersionString[];

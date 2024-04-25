@@ -18,7 +18,7 @@
   "platforms": {
     "ios": "10.0"
   },
-  "source_files": "MyFramework/Classes/**/*",
+  "source_files": "SLAd/Classes/**/*",
   "public_header_files": "Pod/Classes/**/*.h",
   "dependencies": {
     "AFNetworking": [
@@ -29,11 +29,5 @@
     "UIKit",
     "Foundation"
   ],
-  "static_framework": true,
-  "resource_bundles": {
-    "DMAdSDK_Bundle": [
-      "DMAdSDK_Bundle/Assets/*.png",
-      "SLAd/Classes/DMAdSDK_Bundle.bundle"
-    ]
-  }
+  "static_framework": true
 }

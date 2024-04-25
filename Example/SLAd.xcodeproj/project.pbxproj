@@ -207,7 +207,6 @@
 				6003F586195388D20070C39A /* Sources */,
 				6003F587195388D20070C39A /* Frameworks */,
 				6003F588195388D20070C39A /* Resources */,
-				449D8D2B70556ECFA42F1523 /* [CP] Copy Pods Resources */,
 				AE621A699D70761971191D40 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
@@ -300,24 +299,6 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		449D8D2B70556ECFA42F1523 /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-SLAd_Example/Pods-SLAd_Example-resources.sh",
-				"${PODS_CONFIGURATION_BUILD_DIR}/SLAd/DMAdSDK_Bundle.bundle",
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/DMAdSDK_Bundle.bundle",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SLAd_Example/Pods-SLAd_Example-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 		7E38D51BF2C1E08596E5A111 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
