@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'SLAd'
-  s.version          = '0.5.0'
+  s.version          = '0.2.0'
   s.summary          = '一个测试cocoapods'
 
 # This description is used to generate tags and improve search results.
@@ -36,19 +36,7 @@ TODO: Add long description of the pod here.
   #   'SLAd' => ['SLAd/Assets/*.png']
   # }
 
-   s.public_header_files = 'Pod/Classes/**/*.h'
+  # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
-   s.dependency 'AFNetworking', '~> 2.3'
-  # 确保使用frameworks
-#  s.source_files = 'MyFramework/Classes/**/*'
-    
-  s.frameworks = 'UIKit', 'Foundation'
- 
-    # 如果你的库依赖于其他pods，在这里指定它们
-#  s.dependency 'AFNetworking', '~> 3.0'
-  s.static_framework = true
-#  s.vendored_frameworks = 'SLAd/Classes/DMAdSDK.framework'
-#  s.resource_bundles = {
-#     'DMAdSDK_Bundle' => ['DMAdSDK_Bundle/Assets/*.png', 'SLAd/Classes/DMAdSDK_Bundle.bundle']
-#   }
+  # s.dependency 'AFNetworking', '~> 2.3'
 end

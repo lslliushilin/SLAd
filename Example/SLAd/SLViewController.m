@@ -7,7 +7,7 @@
 //
 
 #import "SLViewController.h"
-#import <DMAdSDK/DMAds.h>
+#import <DM_Link.h>
 @interface SLViewController ()
 
 @end
@@ -17,9 +17,8 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-    
 	// Do any additional setup after loading the view, typically from a nib.
-    [[DMAds shareInstance] initSDK];
+    [[DM_Link shareInstance] openAppWithUniversalLink:@"qw3"];
 }
 
 - (void)didReceiveMemoryWarning
